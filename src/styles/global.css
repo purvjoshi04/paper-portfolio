@@ -9,15 +9,15 @@ html[data-theme="light"] {
   --foreground: #282728;
   --accent: #006cac;
   --muted: #e6e6e6;
-  --border: #ece9e9;
+  --border: #006cac;
 }
 
 html[data-theme="dark"] {
-  --background: #2f3741;
+  --background: #0d0b0b;
   --foreground: #e6e6e6;
   --accent: #1ad9d9;
   --muted: #596b81;
-  --border: #3b4655;
+  --border: #1ad9d9;
 }
 
 @theme inline {
