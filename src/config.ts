@@ -1,0 +1,22 @@
+export const SITE = {
+  website: "https://astro-paper.pages.dev/", 
+  author: "Purv Joshi",
+  profile: "https://satnaing.dev/",
+  desc: "A minimal, responsive and SEO-friendly Astro blog portfolio.",
+  title: "Purv Joshi",
+  ogImage: "astropaper-og.jpg",
+  lightAndDarkMode: true,
+  postPerIndex: 4,
+  postPerPage: 4,
+  scheduledPostMargin: 15 * 60 * 1000,
+  showArchives: true,
+  showBackButton: true,
+  editPost: {
+    enabled: true,
+    text: "Suggest Changes",
+    url: "https://github.com/satnaing/astro-paper/edit/main/",
+  },
+  dynamicOgImage: true,
+  lang: "en",
+  timezone: "Asia/Bangkok",
+} as const;
