@@ -1,4 +1,4 @@
-# AstroPaper-Portfolio 📄
+# AstroPaper-Portfolio
 
 ## Project Structure
 
