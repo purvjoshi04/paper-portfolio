@@ -12,28 +12,24 @@ export const SOCIALS = [
   {
     name: "Github",
     href: "https://github.com/purvjoshi04",
-    EventTarget: "_blank",
     linkTitle: ` ${SITE.title} on Github`,
     icon: IconGitHub,
   },
   {
     name: "X",
     href: "https://x.com/purv_joshi_",
-    EventTarget: "_blank",
     linkTitle: `${SITE.title} on X`,
     icon: IconBrandX,
   },
   {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/purvjoshi/",
-    EventTarget: "_blank",
     linkTitle: `${SITE.title} on LinkedIn`,
     icon: IconLinkedin,
   },
   {
     name: "Mail",
     href: "mailto:purvjoshi.dev@gmail.com",
-    EventTarget: "_blank",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: IconMail,
   },
