@@ -22,6 +22,7 @@ Inside of AstroPaper-Portfolio, you'll see the following folders and files:
 │   ├── layouts/
 │   └── pages/
 │   └── styles/
+│   └── types/
 │   └── utils/
 │   └── config.ts
 │   └── constants.ts
