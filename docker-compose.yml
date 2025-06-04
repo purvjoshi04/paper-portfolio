@@ -1,5 +1,9 @@
 services:
   app:
+    container_name: paper_portfolio
+    build:
+      context: .
+      dockerfile: Dockerfile
     image: node:lts
     ports:
       - 4321:4321

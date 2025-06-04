@@ -11,27 +11,27 @@ const resumePDF = "/resume.pdf";
 <Layout title={`Resume | ${SITE.title}`}>
   <Header activeNav="resume" />
 
-  <main
-    id="main-content"
-    class="flex flex-col items-center justify-center px-4 py-8"
+<main
+  id="main-content"
+  class="flex flex-col items-center justify-start px-4 py-6 sm:py-8"
+>
+  <h1 class="text-2xl sm:text-3xl font-bold mb-4">Resume</h1>
+
+  <LinkButton
+    href={resumePDF}
+    class="mb-6 text-base sm:text-lg underline decoration-dashed underline-offset-8 hover:opacity-80 transition-opacity"
   >
-    <h1 class="text-3xl font-bold mb-4">Resume</h1>
+    Download the PDF
+  </LinkButton>
 
-    <LinkButton
-      href={resumePDF}
-      class="mb-6 text-lg underline decoration-dashed underline-offset-8 hover:opacity-80 transition-opacity"
-    >
-      Download the PDF
-    </LinkButton>
-
-    <iframe
-      src={resumePDF}
-      title="My Resume"
-      class="block w-full max-w-3xl h-screen border-none mx-auto"
-    >
-      This browser does not support PDFs.
-    </iframe>
-  </main>
+  <iframe
+    src={resumePDF}
+    title="My Resume"
+    class="block w-full max-w-3xl min-h-[60vh] sm:min-h-[80vh] border-none mx-auto"
+  >
+    This browser does not support PDFs.
+  </iframe>
+</main>
 
   <Footer />
 </Layout>
