@@ -6,7 +6,7 @@ export interface Props {
   ariaLabel?: string;
   title?: string;
   disabled?: boolean;
-  target?: "_blank";
+  target?: "_blank" | "_self";
   download?: string;
 }
 
@@ -18,6 +18,8 @@ const {
   title,
   disabled = false,
   target = "_blank",
+  download
+  
 } = Astro.props;
 ---
 
@@ -39,6 +41,7 @@ const {
       aria-label={ariaLabel}
       title={title}
       target={target}
+      {...(download && { download })}
     >
       <slot />
     </a>
