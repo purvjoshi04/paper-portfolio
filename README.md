@@ -133,4 +133,4 @@ Licensed under the MIT License, Copyright © 2025
 
 ---
 
-Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
+This is not my project, This project is made by [Sat Naing](https://satnaing.dev) Thanks to him.
